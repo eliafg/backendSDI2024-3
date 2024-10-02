@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+</head>
+<body>
+    <h1><%= tutorial.title %></h1>
+    <h3>Paso: <%= tutorial.step %></h3>
+    <h3><%= tutorial.file %></h2>
+    <p>
+      <!-- Replace \n with <br> for newlines in the tutorial content -->
+      <%- escapedContent %>
+    </p>
+</body>
+</html>
